@@ -1,1 +1,1 @@
-Storing old code from classes as a reminder
+Storing old code from Intro to Computer Science II as a reminder
