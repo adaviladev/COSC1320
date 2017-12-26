@@ -1,0 +1,13 @@
+1
+ a	late-binding: The technique of waiting until run time to determine the implementation of a procedure
+ 	virtual function: A function that is defined at run-time
+	polymorphism: The ability to associate many meanings to one function
+ b	The output would change to:
+	Discounted item is not cheaper.
+ c	Yes
+ d	A: illegal. Employee is abstract
+	B: legal
+	B: legal abstract class is a type.
+ e	There would be no members to assign to the derived class's add members
+ f	It discards the part of the object that isn't associated with the parent class.
+ g	If the base class's function has the virtual modifier, then the derived class's function is called. Otherwise, the parent class function is called.

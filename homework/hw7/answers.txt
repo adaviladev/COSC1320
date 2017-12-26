@@ -1,0 +1,15 @@
+1a	JFrame class
+ b	pixels
+ c	someWindow.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
+ d	someWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+ e	JFrame is reduced to an icon at the bottom of the screen.
+ f	if(n > 0){
+		someWindow.setVisible(true);
+	} else {
+		someWindow.setVisible(false);
+	}
+ g	an action event
+ h	public void actionPerformed(ActionEvent e)
+ i	add:
+	firstWindow.setTitle("My First Window");
+ j	

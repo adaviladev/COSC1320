@@ -1,0 +1,23 @@
+﻿Build started 6/26/2015 12:28:42 AM.
+     1>Project "C:\GoogleDrive\COSC1320\homework\hw11\HOMEWORK11\HOMEWORK11\HOMEWORK11.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\HOMEWORK11.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\GoogleDrive\COSC1320\homework\hw11\HOMEWORK11\Debug\HOMEWORK11.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\HOMEWORK11.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\GoogleDrive\COSC1320\homework\hw11\HOMEWORK11\Debug\HOMEWORK11.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\GoogleDrive\COSC1320\homework\hw11\HOMEWORK11\Debug\HOMEWORK11.lib" /MACHINE:X86 Debug\Document.obj
+         Debug\Email.obj
+         Debug\File.obj
+         Debug\Main.obj
+     1>Document.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         HOMEWORK11.vcxproj -> C:\GoogleDrive\COSC1320\homework\hw11\HOMEWORK11\Debug\HOMEWORK11.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\GoogleDrive\COSC1320\homework\hw11\HOMEWORK11\Debug\HOMEWORK11.exe;#1" /manifest Debug\HOMEWORK11.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\HOMEWORK11.unsuccessfulbuild".
+         Touching "Debug\HOMEWORK11.lastbuildstate".
+     1>Done Building Project "C:\GoogleDrive\COSC1320\homework\hw11\HOMEWORK11\HOMEWORK11\HOMEWORK11.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.42

@@ -1,0 +1,14 @@
+5
+ a	information hiding
+ b	overloading
+ c	overriding
+ d	Module
+ e	Object oriented class
+ f	Use case
+ g	Use Case Diagram
+ h	Class Diagram
+ i	Communication or Collaboration Diagram
+ j	Activity Diagram
+
+
+http://issuu.com/ateneoleaps/docs/absolute-c-----savich---part-002/419

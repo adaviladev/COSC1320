@@ -1,0 +1,46 @@
+1
+ a	yes
+ b	The function printCheck is going to be redefined in SalariedEmployee to be specific to the needs of the SalariedEmployee class
+ c	
+#include <iostream>
+#include "salariedemployee.h"
+using namespace std;
+namespace SavitchEmployees
+{
+class TitledEmployee : public SalariedEmployee
+{
+public:
+TitledEmployee( );
+TitledEmployee(string theName, string theTitle,
+string theSsn, double theSalary);
+string getTitle( ) const;
+void setTitle(string theTitle);
+void setName(string theName);
+private:
+string title;
+};
+}//SavitchEmployees
+
+ d
+namespace SavitchEmployees
+{
+TitledEmployee::TitledEmployee( )
+: SalariedEmployee( ), title("No title yet")
+{
+//deliberately empty
+}
+TitledEmployee::TitledEmployee(string theName,
+string theTitle,
+string theSsn, double theSalary)
+: SalariedEmployee(theName, theSsn, theSalary),
+title(theTitle)
+{
+//deliberately empty
+}
+void TitledEmployee::setName(string theName)
+{
+Employee::setName(title + theName);
+}
+}//SavitchEmployees
+
+ e	No. Default assignment operators will be defined for the derived class.

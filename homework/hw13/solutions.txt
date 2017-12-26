@@ -1,0 +1,24 @@
+1
+ a	Try block entered.
+	Leaving try block.
+	After catch block
+ b	Try block entered.
+	Exception thrown with
+	waitTime equal to 46
+	Leaving try block.
+	After catch block
+ c	When an exception is thrown, the code in the 
+	surrounding try block stops executing and 
+	another portion of code, known as a catch block, 
+	begins execution.
+ d	Trying.
+	Starting sampleFunction.
+	Catching.
+	End program.
+ e	Trying.
+	Starting sampleFunction.
+	Trying after call.
+	End program.
+ f	The unexpected function is called which, in turn, 
+	calls the terminate function to end the program.
+ g	yes
